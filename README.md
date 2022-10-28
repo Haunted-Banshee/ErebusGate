@@ -53,5 +53,5 @@ asm """
     """
 ```
 
-[img](https://github.com/Haunted-Banshee/ErebusGate/blob/main/img.png)
+![img](https://github.com/Haunted-Banshee/ErebusGate/blob/main/img.png)
 
