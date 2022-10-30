@@ -88,7 +88,7 @@ proc getTableEntry*(pImageBase : PVOID, pCurrentExportDirectory : PIMAGE_EXPORT_
                         tableEntry.wSysCall = cast[PWORD](cast[ByteAddress](pFuncAddr) + 4 + (idx * DOWN))[] - cast[WORD](idx)
                         return true 
             # Tartarus gate from Nim
-            # Check the the first three is 0xe9
+            # Check the the third is 0xe9
             elif cast[PBYTE](cast[ByteAddress](pFuncAddr) + 3 )[] == 0xE9:
                 for idx in countup(1,500):
                     if cast[PBYTE](cast[ByteAddress](pFuncAddr) + 3 + idx * UP)[] == 0xB8:
