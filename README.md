@@ -55,3 +55,7 @@ asm """
 
 ![img](https://github.com/Haunted-Banshee/ErebusGate/blob/main/img.png)
 
+
+## References
+A large number of research results come from HellsGateNim(https://github.com/zimawhit3/HellsGateNim)
+
